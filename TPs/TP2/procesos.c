@@ -5,6 +5,7 @@ int main()
 {
 
     pid_t c_id = fork();
+    pid_t d_id = fork();
 
     if (c_id == 0)
     {
